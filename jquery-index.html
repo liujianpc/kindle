@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8" />
+		<title>网易云音乐外链</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="网易云音乐外链" content="EverEdit" />
+		<meta name="尘世间迷途小书童" content="尘世间迷途小书童" />
+		<meta name="尘世间迷途小书童" content="尘世间迷途小书童" />
+		<meta name="尘世间迷途小书童" content="" />
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+		<link href="./bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="navbar.css" type="" media="" />
+		<style type="text/css" media="screen" id="test">
+			html,body{
+				background-color:#272822;
+				
+			}
+			h2{
+				line-height:4vh!important;//设置header的高度
+				font-size:20px!important;
+			}
+			#header{
+				font-size:1vh!important;
+
+				text-align: center;
+				padding-top:5px;
+				padding-bottom:5px;
+				background-color: silver;
+	
+				margin-bottom:10px;
+				border:10px solid silver;
+				border-radius:10px;
+			}
+			#leftContent{
+				width:22.5%;
+				height:500px;
+				background-color: #aaa;
+				float: left;
+
+				border-radius:10px;
+				font-size:2.5vh!important;
+			}
+			#rightContent{
+				width:74.5%;
+				height:1200px;
+				margin-left:2%;
+				padding-left:1%;
+				background-color:#ddd;
+				vertical-align:top;
+				float: right;
+
+				border-radius:10px;
+			}
+			
+			   #clear {
+	         clear: both;
+	         float: none;
+	         height: 0px;
+	      }
+	      ul li {line-height: 4vh!important;}
+	    hr {border-top:1px solid #2EE007;border-bottom:1px solid #2EE007;}
+
+	    div.caption h3{font-size: 1.5vh!important; line-height:4vh;}
+	    div.caption p {font-size: 1vh!important;}
+	    div.thumbnail img {width:30%!important;height:30%!important;}
+	    div.thumbnail img:hover {position: absolute;z-index:1;width:300px;height:200px;opacity: 1;}
+		</style>
+	</head>
+	</style>
+	<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery_v1.5.2/jquery-1.5.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			  $("#hobby").click(function(event) {
+				  $("#rightContent").load("education.html div#hobby");
+				  event.preventDefault();
+			  });
+			  $("#education").click(function(event){
+				  $("#rightContent").load("education.html div#education");
+				  event.preventDefault();
+			  });
+			   $("#award").click(function(event){
+				  $("#rightContent").load("education.html div#award");
+				  event.preventDefault();
+			  });
+			   $("#project").click(function(event){
+				  $("#rightContent").load("education.html div#project");
+				  event.preventDefault();
+			  });
+			   $("#self-intro").click(function(event){
+				  $("#rightContent").load("education.html div#self-intro");
+				  event.preventDefault();
+			  });
+			   $("#project-present").click(function(event){
+				  $("#rightContent").load("education.html div#project-present");
+				  event.preventDefault();
+			  });
+		     
+		  });
+	</script>
+	</head>
+	<body class="container-fluid">
+		<div id="header" class="navbar">
+				<h2 style="font-size:3.5vh">简历(Resume)</h2>
+		</div>
+		<div id="clear"></div>
+		<div id="leftContent">
+			<ul>
+				<li><a href="">个人信息</a>
+				<li><a href="#" id ="education">教育经历</a>
+				<li><a href="#" id="award">获奖情况</a>
+				<li><a href="#" id="project">项目经历</a>
+				<li><a href="#" id="hobby">兴趣爱好</a></li>
+				<li><a href="#" id="self-intro">自我评价</a></li>
+				<li><a href="#" id="project-present">项目展示</a></li>
+				
+			</ul>
+		</div>
+		<div id="rightContent">
+				<h3 class="text-center" style="font-size:3vh;">个人信息</h3>
+			<hr />
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span8">
+						<p>	<strong class="">姓名：</strong>刘坚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>性别：</strong>男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>户籍：</strong>江西省安福县
+							<br />	<strong>手机：</strong>18200172129&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>邮箱：</strong>liujianpc@gmail.com(msn.cn)
+							<br /><strong>出生年月：</strong>1991.09.07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+					</div>
+					<div class="span4">
+						<img alt="140x140" src="res/github.jpg" class="img-rounded" />
+					</div>
+				</div>
+				<hr />
+				<div class="row-fluid">
+					<div class="span12">
+						<table class="table table-hover table-striped">
+							<caption class="text-left">
+								<h4 style="color: green;">学历</h4>
+							</caption>
+							<thead>
+								<tr>
+									<th>时间</th>
+									<th>学校</th>
+									<th>专业</th>
+									<th>主要课程</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2005-2008</td>
+									<td>安福中学</td>
+									<td>理科</td>
+									<td></td>
+								</tr>
+								<tr class="success">
+									<td>2009-2012</td>
+									<td>华南理工大学</td>
+									<td>微电子技术</td>
+									<td>《模拟电路》《数字电路》《信号与系统》《数字信号处理》《微机原理与应用》</td>
+								</tr>
+								<tr class="error">
+									<td>2013-2017</td>
+									<td>电子科技大学</td>
+									<td>计算机科学与技术</td>
+									<td>《C/C++》《计算机组成原理》《数据结构与算法》《数字逻辑》《编译原理》《操作系统》《Java与软件工程》</td>
+								</tr>
+								<tr class="info">
+									<td>待定</td>
+									<td>waiting</td>
+									<td>waiting</td>
+									<td>waiting</td>
+								</tr>
+							</tbody>
+						</table>
+						<hr />
+						<table class="table table-hover table-striped">
+							<caption class="text-left">
+								<h4 style="color: green;">获奖情况</h4>
+							</caption>
+							<thead>
+								<tr>
+									<th>时间</th>
+									<th>奖项</th>
+									<th style="width:9%;">等级</th>
+									<th>说明</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2011</td>
+									<td>国家奖学金</td>
+									<td>一等</td>
+									<td></td>
+								</tr>
+								<tr class="success">
+									<td>2010</td>
+									<td>三好学生</td>
+									<td></td>
+									<td>成绩优异，荣获“三好学生”称号</td>
+								</tr>
+								<tr class="error">
+									<td>2011</td>
+									<td>华南理工大学校园宣传工作先进个人“一等奖”</td>
+									<td>一等</td>
+									<td>在华南理工大学学生记者团工作，工作认真负责，在年度评优中，获得先进个人奖，并由校党委书记亲自颁发奖状与证书。</td>
+								</tr>
+								<tr class="info">
+									<td>2011</td>
+									<td>华南理工大学学生记者团“优秀记者”</td>
+									<td></td>
+									<td>在华南理工大学学生记者团，工作认真严谨，责任心强，多次采访著名教师和著名校友，并积极投稿。</td>
+								</tr>
+								<tr>
+									<td>2010</td>
+									<td>华南理工大学世界读书日征文比赛“二等奖”</td>
+									<td>一等</td>
+									<td>在华南理工大学“世界读书日征文比赛”中，积极投稿，以总评分全校第二，获得二等奖。</td>
+								</tr>
+								<tr class="success">
+									<td>2011</td>
+									<td>华南理工大学世界读书日征文比赛“三等奖”</td>
+									<td></td>
+									<td>在华南理工大学“世界读书日征文比赛”中，积极投稿，荣获“三等奖”。</td>
+								</tr>
+								<tr class="error">
+									<td>2013</td>
+									<td>人民奖学金</td>
+									<td>二等</td>
+									<td>在电子科技大学，2013-2014学年，学习成绩排本专业15名，获得人民奖学金。</td>
+								</tr>
+								<tr class="info">
+									<td>2014-2015</td>
+									<td>人民奖学金</td>
+									<td></td>
+									<td>在电子科技大学，2014-2015学年，本专业综合排名前10%，获得人民奖学金。</td>
+								</tr>
+								<tr class="success">
+									<td>2014</td>
+									<td>发表文章</td>
+									<td></td>
+									<td>在电子科技大学校刊《新翼》以独立作者身份发表文章。</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
